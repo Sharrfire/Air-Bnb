@@ -16,6 +16,12 @@ Từ tổng quan đến chi tiết */
         opacity: 1;
     }
 }
+.hide {
+    display: none !important;
+}
+.display-flex {
+    display: flex !important;
+}
 #main {
 }
 #header {
@@ -295,7 +301,7 @@ Từ tổng quan đến chi tiết */
 /* ---------------------------------Header Content--------------------------------- */
 .header__content {
     position: absolute;
-    bottom:calc( 27% + 2px);
+    bottom: calc(27% + 2px);
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -318,11 +324,123 @@ Từ tổng quan đến chi tiết */
     box-shadow: 0px 6px 16px rgb(0 0 0 / 12%);
     border-radius: 54px;
     line-height: 2.1rem;
-
 }
 
-#slider {
+/* ---------------------------------Section--------------------------------- */
+.section-item {
+    padding: 40px 0;
 }
+.section-item a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.section-item__heading {
+    font-size: 3.2rem;
+    margin-bottom: 24px;
+}
+
+.section-item-1 {
+    /* dat bien de col ben base.css chia cot */
+    --col-number: 4;
+    --space-col: 12px;
+}
+
+.nearest-place-item {
+    display: flex;
+    align-items: center;
+}
+.nearest-place-item + .nearest-place-item {
+    margin-top: 18px;
+}
+.nearest-place-item-img img {
+    width: 64px;
+    margin: 0 20px 0 0;
+    border-radius: 8px;
+}
+.nearest-place-item-name {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.nearest-place-item-name {
+    font-weight: bold;
+}
+.nearest-place-item-hours {
+    margin-top: 4px;
+    font-size: 1.5rem;
+}
+
+/* -------------------------Footer------------------------- */
+
+.section-item-2 {
+    /* dat bien de col ben base.css chia cot */
+    --col-number: 4;
+    --space-col: 9px;
+}
+.section-item-2-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-item-2__item:hover, .section-item-3__item:hover {
+    opacity: 0.8;
+}
+.section-item-2__title {
+    margin: 10px 0 0 0;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.section-item-2-banner {
+    --size: 360px;
+    background: url(../image/banner.webp);
+    height: var(--size);
+    margin-top: 60px;
+    padding: 0 76px;
+    border-radius: 16px;
+    color: var(--white-color);
+    align-items: center;
+    display: flex;
+}
+.section-item-2-banner-container {
+  
+    max-width: var(--size);
+}
+.section-item-2-banner-container h6 {
+    font-size: 3rem;
+}
+.section-item-2-banner-container p {
+    font-size: 1.6rem;
+    margin: 16px 0;
+}
+.section-item-2-banner-container-btn {
+    padding: 8px 12px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section-item-3 {
+    --col-number: 3;
+    --space-col: 9px;
+}
+.section-3-item-img {
+    width: 100%;
+    border-radius: 8px;
+}
+.section-3-item-content {
+    margin: 8px 0 0;
+}
+.section-3-item-content h6 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.section-3-item-content p {
+    font-size: 1.4rem;
+    margin-top: 4px 0 0;
+}
+
+/* ---------------------------------Footer--------------------------------- */
 
 #footer {
 }
