@@ -11,13 +11,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/vendor/css/nomalize.css" />
+    <link rel="stylesheet" href="./assets/css/respondsive.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -170,92 +168,117 @@
       </div>
       <div class="header__content">
         <h5 class="header__content-title">Bạn chưa biết nên đi đâu? Tuyệt!</h5>
-        <a href="" class="header__content-btn-link">Tìm kiếm linh hoạt</a>
+        <a href="" class="header__content-btn-link">
+          <span> Tìm kiếm linh hoạt</span>
+        </a>
+      </div>
+      <div class="header__mobile header__mobile--background">
+        <div class="header__mobile-btn">
+          <div class="header__mobile-content">
+            <i class="fa fa-search header__mobile-icon"></i> Bạn săp đi đâu?
+          </div>
+        </div>
       </div>
     </div>
-
+    <!-- ---------------------------Section--------------------------- -->
     <section class="section-item section-item-1">
       <div class="wide">
-        <h2 class="section-item__heading">Khám phá những địa điểm gần đây</h2>
-        <div class="row section-item__title__row">
+        <h2 class="section-item__heading">Khám phá những điểm đến gần đây</h2>
+        <div class="row section-item-1__row">
           <div class="col">
             <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/bienhoa.png" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Biên Hòa</div>
-                <div class="nearest-place-item-hours">15 phút lái xe</div>
-              </div>
+              <a href="#">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/hcm.jpg" alt="hcm" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Thành phố Hồ Chí Minh</h6>
+                  <span class="nearest-place-item-hours">45 phút lái xe</span>
+                </div>
+              </a>
             </div>
             <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/hcm.jpg" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Thành phố Hồ Chí Minh</div>
-                <div class="nearest-place-item-hours">45 phút lái xe</div>
-              </div>
+              <a href="">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/thuanan.jpg" alt="thuanan" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Thuận an</h6>
+                  <span class="nearest-place-item-hours">15 phút lái xe</span>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col">
             <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/cantho.png" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Cần Thơ</div>
-                <div class="nearest-place-item-hours">6 giờ 30 phút lái xe</div>
-              </div>
+              <a href="#">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/nhatrang.jpg" alt="nhatrang" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Nha trang</h6>
+                  <span class="nearest-place-item-hours">45 phút lái xe</span>
+                </div>
+              </a>
             </div>
             <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/nhatrang.jpg" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Nha Trang</div>
-                <div class="nearest-place-item-hours">6 giờ 30 phút lái xe</div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/vungtau.png" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Biên Hòa</div>
-                <div class="nearest-place-item-hours">6 giờ 30 phút lái xe</div>
-              </div>
-            </div>
-            <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/cantho.png" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Biên Hòa</div>
-                <div class="nearest-place-item-hours">6 giờ 30 phút lái xe</div>
-              </div>
+              <a href="">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/bienhoa.png" alt="bienhoa" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Biên hòa</h6>
+                  <span class="nearest-place-item-hours">15 phút lái xe</span>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col">
             <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/bienhoa.png" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Biên Hòa</div>
-                <div class="nearest-place-item-hours">6 giờ 30 phút lái xe</div>
-              </div>
+              <a href="#">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/cantho.png" alt="cantho" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Cần thơ</h6>
+                  <span class="nearest-place-item-hours">45 phút lái xe</span>
+                </div>
+              </a>
             </div>
             <div class="nearest-place-item">
-              <div class="nearest-place-item-img">
-                <img src="./assets/image/tuyhoa.jpg" alt="bienhoa" />
-              </div>
-              <div class="nearest-place-item-info">
-                <div class="nearest-place-item-name">Tuy Hòa</div>
-                <div class="nearest-place-item-hours">6 giờ 30 phút lái xe</div>
-              </div>
+              <a href="">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/tuyhoa.jpg" alt="tuyhoa" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Tuy hòa</h6>
+                  <span class="nearest-place-item-hours">15 phút lái xe</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="nearest-place-item">
+              <a href="#">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/vungtau.png" alt="vungtau" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Vũng tàu</h6>
+                  <span class="nearest-place-item-hours">45 phút lái xe</span>
+                </div>
+              </a>
+            </div>
+            <div class="nearest-place-item">
+              <a href="">
+                <div class="nearest-place-item-img">
+                  <img src="./assets/image/thuanan.jpg" alt="thuanan" />
+                </div>
+                <div class="nearest-place-item-info">
+                  <h6 class="nearest-place-item-name">Thuận an</h6>
+                  <span class="nearest-place-item-hours">15 phút lái xe</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -330,13 +353,12 @@
         </a>
       </div>
     </section>
-
     <section class="section-item section-item-3">
       <div class="wide">
         <h2 class="section-item__heading">
           Khám phá những điều nên trải nghiệm
         </h2>
-        <div class="row">
+        <div class="row section-item-3__row">
           <div class="col">
             <div class="section-item-3__item">
               <a href="#">
@@ -389,12 +411,167 @@
         </div>
       </div>
     </section>
-    <div id="destinations"></div>
-    <div id="packages"></div>
-    <div id="tour"></div>
-    <div id="discover"></div>
-    <div id="ticket"></div>
+    <!-- ---------------------------Footer--------------------------- -->
 
-    <div id="footer"></div>
+    <div id="footer">
+      <div class="wide">
+        <div class="row footer__top">
+          <div class="col">
+            <div class="footer__item">
+              <h6 class="footer__item-heading">Giới thiệu</h6>
+              <div class="footer__item__link">
+                <a href="#" class="footer__item__link-item"
+                  >Phương thức hoạt động của Airbnb</a
+                >
+                <a href="#" class="footer__item__link-item">Trang tin tức</a>
+                <a href="#" class="footer__item__link-item">Airbnb 2021</a>
+                <a href="#" class="footer__item__link-item">Nhà đầu tư</a>
+                <a href="#" class="footer__item__link-item">Airbnb Plus</a>
+                <a href="#" class="footer__item__link-item">Airbnb Luxe</a>
+                <a href="#" class="footer__item__link-item">HotelTonight</a>
+                <a href="#" class="footer__item__link-item">Airbnb for Work</a>
+                <a href="#" class="footer__item__link-item"
+                  >Nhờ có Host, mọi điều đều có thể</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Cơ hội nghề nghiệp</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Thư của nhà sáng lập</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer__item">
+              <h6 class="footer__item-heading">Cộng đồng</h6>
+              <div class="footer__item__link">
+                <a href="#" class="footer__item__link-item"
+                  >Sự đa dạng và Cảm giác thân thuộc</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Tiện nghi phù hợp cho người khuyết tật</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Đối tác liên kết Airbnb</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Chỗ ở cho tuyến đầu</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Lượt giới thiệu của khách</a
+                >
+                <a href="#" class="footer__item__link-item">Airbnb.org</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer__item">
+              <h6 class="footer__item-heading">Đón tiếp khách</h6>
+              <div class="footer__item__link">
+                <a href="#" class="footer__item__link-item">Cho thuê nhà</a>
+                <a href="#" class="footer__item__link-item"
+                  >Tổ chức Trải nghiệm trực tuyến</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Tổ chức trải nghiệm</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Đón tiếp khách có trách nhiệm</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Trung tâm tài nguyên</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Trung tâm cộng đồng</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer__item">
+              <h6 class="footer__item-heading">Hỗ trợ</h6>
+              <div class="footer__item__link">
+                <a href="#" class="footer__item__link-item"
+                  >Biện pháp ứng phó với đại dịch COVID-19 của chúng tôi</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Trung tâm trợ giúp</a
+                >
+                <a href="#" class="footer__item__link-item">Các tùy chọn hủy</a>
+                <a href="#" class="footer__item__link-item"
+                  >Hỗ trợ khu dân cư</a
+                >
+                <a href="#" class="footer__item__link-item"
+                  >Tin cậy và an toàn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="row footer__bottom__container">
+            <div class="col footer__bottom__copyright">
+              <span class="copyright">© 2021 Airbnb, Inc.</span>
+              <div class="footer__bottom__links">
+                <a href="#" class="footer__bottom__link-item">Quyền riêng tư</a>
+                <a href="#" class="footer__bottom__link-item">Điều khoản</a>
+                <a href="#" class="footer__bottom__link-item"
+                  >Sơ đồ trang web</a
+                >
+              </div>
+            </div>
+            <div class="col footer__bottom__social">
+              <span class="footer__bottom__item footer__bottom__languages">
+                <i class="fas fa-globe"></i>
+                Tiếng Việt(VN)
+              </span>
+
+              <span class="footer__bottom__item footer__bottom__currency">
+                <i class="fas fa-dollar-sign"></i>
+                USD
+              </span>
+
+              <div class="footer__bottom__social-link">
+                <a href="#" class="footer__bottom__social-item">
+                  <i
+                    class="footer__bottom__social-item-icon fab fa-facebook-f"
+                  ></i>
+                </a>
+                <a href="#" class="footer__bottom__social-item">
+                  <i
+                    class="footer__bottom__social-item-icon fab fa-twitter"
+                  ></i>
+                </a>
+                <a href="#" class="footer__bottom__social-item">
+                  <i
+                    class="footer__bottom__social-item-icon fab fa-instagram"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar-mobile"></nav>
+    <!-- ---------------------------Modal--------------------------- -->
+
+    <div class="language-currentcy-container">
+      <div class="modal-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="language-currentcy-modal">
+        <div class="modal-navbar">
+          <div class="modal-navbar-item modal-navbar-language modal-navbar-item--active">
+            <span class="modal-navbar-item-heading">Ngôn ngữ và khu vực</span>
+          </div>
+          <div class="modal-navbar-item modal-navbar-currency">
+            <span class="modal-navbar-item-heading">Tiền tệ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
   </body>
 </html>

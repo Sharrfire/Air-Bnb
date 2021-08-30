@@ -944,7 +944,7 @@ body.disabled-scroll {
 .footer__bottom__link-item:hover,
 .footer__bottom__languages:hover,
 .footer__bottom__currency:hover {
-    text-decoration: underline;
+    text-decoration: none;
     opacity: 0.9;
     cursor: pointer;
 }
